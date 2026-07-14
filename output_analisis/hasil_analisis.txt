@@ -1,0 +1,58 @@
+==========================================
+LAPORAN EKSEKUTIF: SPOTIFY CHART ANALYTICS
+==========================================
+Negara            : ID
+Filter mulai      : 2024-01-01
+Periode analisis  : 2024-01-04 s/d 2026-05-28
+Total entri       : 24,800
+Total album unik  : 499
+Total artis unik  : 270
+Rank terbaik      : 1
+Rank terendah     : 200
+
+Catatan metode:
+Dataset berisi chart mingguan album, bukan jumlah stream langsung.
+Dominasi album/artis diperkirakan dengan chart_score = 201 - rank.
+
+10 ALBUM TERATAS
+------------------------------------------
+1. Menari Dengan Bayangan (Hindia) | score=24,592, appearances=124, best_rank=1, avg_rank=2.68
+2. fábula (Mahalini) | score=23,870, appearances=124, best_rank=1, avg_rank=8.5
+3. Lagipula Hidup Akan Berakhir (Hindia) | score=23,643, appearances=125, best_rank=3, avg_rank=11.86
+4. Manusia (Tulus) | score=23,467, appearances=124, best_rank=4, avg_rank=11.75
+5. Perayaan Patah Hati - Babak 1 (For Revenge) | score=23,355, appearances=124, best_rank=3, avg_rank=12.65
+6. Selamat Ulang Tahun (Nadin Amizah) | score=23,156, appearances=124, best_rank=8, avg_rank=14.26
+7. Monokrom (Tulus) | score=23,033, appearances=124, best_rank=6, avg_rank=15.25
+8. Untuk Dunia, Cinta, dan Kotornya (Nadin Amizah) | score=22,774, appearances=124, best_rank=10, avg_rank=17.34
+9. Nicole (NIKI) | score=22,607, appearances=125, best_rank=2, avg_rank=20.14
+10. Sentimental (Juicy Luicy) | score=22,600, appearances=124, best_rank=5, avg_rank=18.74
+
+10 ARTIS TERATAS
+------------------------------------------
+1. Taylor Swift | score=86,168, chart_entries=907, unique_albums=14, best_rank=1, avg_rank=106.0
+2. Hindia | score=60,410, chart_entries=313, unique_albums=3, best_rank=1, avg_rank=8.0
+3. Bruno Mars | score=56,980, chart_entries=384, unique_albums=4, best_rank=7, avg_rank=52.61
+4. Ariana Grande | score=49,590, chart_entries=481, unique_albums=6, best_rank=1, avg_rank=97.9
+5. Tulus | score=49,376, chart_entries=286, unique_albums=4, best_rank=4, avg_rank=28.36
+6. Dewa | score=48,576, chart_entries=380, unique_albums=5, best_rank=6, avg_rank=73.17
+7. Dewa 19 | score=46,048, chart_entries=374, unique_albums=4, best_rank=5, avg_rank=77.88
+8. Nadin Amizah | score=45,930, chart_entries=248, unique_albums=2, best_rank=8, avg_rank=15.8
+9. Sheila On 7 | score=45,871, chart_entries=495, unique_albums=5, best_rank=8, avg_rank=108.33
+10. Yovie & Nuno | score=45,698, chart_entries=372, unique_albums=3, best_rank=28, avg_rank=78.16
+
+MISSING VALUES
+------------------------------------------
+Sebelum cleaning:
+- date: 0
+- country: 0
+- rank: 0
+- album_name: 1,599
+- artist_names: 1,542
+- weeks_on_chart: 0
+Setelah cleaning:
+- date: 0
+- country: 0
+- rank: 0
+- album_name: 0
+- artist_names: 0
+- weeks_on_chart: 0
