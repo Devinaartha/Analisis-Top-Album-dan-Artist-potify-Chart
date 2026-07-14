@@ -231,7 +231,7 @@ class Visualizer:
 
     def _save_and_close_figure(self, filename: str) -> None:
         plt.tight_layout()
-        #plt.show()
+        plt.show()
         plt.savefig(self.output_dir / filename, dpi=160, bbox_inches="tight")
         plt.close()
 
